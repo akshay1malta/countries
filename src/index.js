@@ -1,7 +1,8 @@
 "use strict";
 
-const countriesData = require("./JSON/countriesData.json");
 const continentsData = require("./JSON/continentsData.json");
+const countriesData = require("./JSON/countriesData.json");
+const countriesFlag = require("./JSON/countryFlags.json");
 
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
@@ -10,13 +11,26 @@ exports.getAllCountriesNames = () => {
 }; 
 
 exports.getContinentName=(countryName)=>{
-  console.log(countryName,"countryName");
-  let continentIndex = continentsData.find(country => {
-    // console.log(country.country,"country in map");
-    country.country.toLowerCase() === "Ghana"
-    //countryName.toLowerCase()
+ 
+  let continentIndex = continentsData.find(country => { 
+    country.country.toLowerCase() === countryName.toLowerCase()
   })
-  console.log(continentIndex,"index");
   return continentIndex ? continentsData[continentIndex].continent : undefined;
 
+  
+
+};
+
+exports.getcountriesFlag = (countryName) => {
+  let flagIndex = countriesFlag.find(country => {
+    country.name.toLowerCase() === countryName.toLowerCase()
+  })
+  return flagIndex ? countriesFlag[flagIndex].emoji : undefined;
+}
+
+exports.getCountryCode = (countryName)=>{
+  let CountryCodeIndex = countriesFlag.find(country => {
+    country.name.toLowerCase() === countryName.toLowerCase()
+  })
+  return CountryCodeIndex ? countriesFlag[CountryCodeIndex].code : undefined;
 }
