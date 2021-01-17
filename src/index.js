@@ -7,3 +7,9 @@ exports.getAllCountriesNames = () => {
     return country.name;
   });
 };
+
+exports.getAllCountriesLanguages = () => {
+  return countriesData.map((country) => {
+    return country.languages;
+  });
+};
