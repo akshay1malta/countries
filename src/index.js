@@ -1,7 +1,7 @@
 "use strict";
 
 const countriesData = require("./countriesData.json");
-const countriesFlag = require("./countriesFlags.json");
+const countriesFlag = require("./countryFlags.json");
 
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
@@ -9,9 +9,8 @@ exports.getAllCountriesNames = () => {
   });
 };
 
-exports.getcountriesFlag = (countryName) => {
-  let flagIndex = countriesFlag.find(country => {
-    country.name.toLowerCase() === countryName.toLowerCase()
-  })
-  return flagIndex ? countriesFlag[flagIndex].emoji : undefined;
-}
+exports.getAllCountriesFlag = () => {
+  return countriesFlag.map((country) => {
+    return country.emoji;
+  });
+};
