@@ -3,7 +3,7 @@
 const continentsData = require("./JSON/continentsData.json");
 const countriesData = require("./JSON/countriesData.json");
 const countriesFlag = require("./JSON/countryFlags.json");
-
+const timezoneData=require("./JSON/countryTimezone.json")
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
     return country.name;
@@ -33,4 +33,11 @@ exports.getCountryCode = (countryName)=>{
     country.name.toLowerCase() === countryName.toLowerCase()
   })
   return CountryCodeIndex ? countriesFlag[CountryCodeIndex].code : undefined;
+}
+
+exports.getCountryTimeZone = (countryName)=>{
+  let timeZoneIndex=timezoneData.find(country=>{
+    country.name.toLowerCase()===countryName.toLowerCase()
+  })
+  return timeZoneIndex ? timeZoneIndex[timeZoneIndex].timezones : undefined;
 }

@@ -1,4 +1,4 @@
-const { getAllCountriesNames, getcountriesFlag ,getContinentName} = require("../src/index");
+const { getAllCountriesNames, getcountriesFlag ,getContinentName, getCountryTimeZone} = require("../src/index");
 var countriesData = require("../src/JSON/countriesData.json");
 var countryFlag = require("../src/JSON/countryFlags.json");
 
@@ -22,4 +22,10 @@ test("Returns country code", () => {
   const countryName = "India";
   const countrycode = "IN";
   expect(getcountriesFlag(countryName)).toBe(countrycode)
+})
+
+test("Returns Country time zone",()=>{
+  const countryName="India";
+  const timezone="Asia/Kolkata";
+  expect(getCountryTimeZone(countryName)).toBe(timezone)
 })
