@@ -16,9 +16,6 @@ exports.getContinentName=(countryName)=>{
     country.country.toLowerCase() === countryName.toLowerCase()
   })
   return continentIndex ? continentsData[continentIndex].continent : undefined;
-
-  
-
 };
 
 exports.getcountriesFlag = (countryName) => {
