@@ -7,3 +7,10 @@ exports.getAllCountriesNames = () => {
     return country.name;
   });
 };
+
+
+exports.getAllIsoCodes = () => {
+  return countriesData.map((country) => {
+    return country.code;
+  });
+};
