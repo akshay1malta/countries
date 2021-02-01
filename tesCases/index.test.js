@@ -1,4 +1,4 @@
-const { getAllCountriesNames, getCountryFlag, getAllCountriesFlag } = require("../src/index");
+const { getAllCountriesNames, getAllCountriesFlag } = require("../src/index");
 var countriesData = require("../src/countriesData.json");
 var countryFlag = require("../src/countryFlags.json");
 
@@ -9,7 +9,7 @@ test("Returns all countries", () => {
 });
 
 test("Returns all countries flag", () => {
-  expect(getAllCountriesFlag()).toEqual(countryFlag.map((country) => {
-    return country.emoji;
+  expect(getAllCountriesFlag()).toEqual(countryFlag.map((flag) => {
+    return flag.name, flag.code, flag.emoji;
   }));
 });
