@@ -5,13 +5,12 @@ const countriesCapitals = require("./countriesCapital.json");
 
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
-    console.log(country.name)
     return country.name;
   });
 };
 
 exports.getAllCountriesCapitals = () => {
   return countriesCapitals.map((country) => {
-    return [country.country, country.city];
+    return {country: country.country, capital: country.city};
   });
 };
