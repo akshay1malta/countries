@@ -1,5 +1,5 @@
 const { getAllCountriesNames, getAllCountriesLanguages } = require("../src/index");
-var countriesData = require("../src/countriesData.json");
+const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 
 test("Returns all countries", () => {
