@@ -10,7 +10,5 @@ exports.getAllCountriesNames = () => {
 };
 
 exports.getAllCountriesCapitals = () => {
-  return countriesCapitals.map((country) => {
-    return {country: country.country, capital: country.city};
-  });
+  return countriesCapitals
 };
