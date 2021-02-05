@@ -1,2158 +1,251 @@
 [
-  {
-      "name": "Aruba",
-      "languages": [
-          "Dutch",
-          "English",
-          "Papiamento",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Afghanistan",
-      "languages": [
-          "Balochi",
-          "Dari",
-          "Pashto",
-          "Turkmenian",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "Angola",
-      "languages": [
-          "Ambo",
-          "Chokwe",
-          "Kongo",
-          "Luchazi",
-          "Luimbe-nganguela",
-          "Luvale",
-          "Mbundu",
-          "Nyaneka-nkhumbi",
-          "Ovimbundu"
-      ]
-  },
-  {
-      "name": "Anguilla",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Albania",
-      "languages": [
-          "Albaniana",
-          "Greek",
-          "Macedonian"
-      ]
-  },
-  {
-      "name": "Andorra",
-      "languages": [
-          "Catalan",
-          "French",
-          "Portuguese",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Netherlands Antilles",
-      "languages": [
-          "Dutch",
-          "English",
-          "Papiamento"
-      ]
-  },
-  {
-      "name": "United Arab Emirates",
-      "languages": [
-          "Arabic",
-          "Hindi"
-      ]
-  },
-  {
-      "name": "Argentina",
-      "languages": [
-          "Indian Languages",
-          "Italian",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Armenia",
-      "languages": [
-          "Armenian",
-          "Azerbaijani"
-      ]
-  },
-  {
-      "name": "American Samoa",
-      "languages": [
-          "English",
-          "Samoan",
-          "Tongan"
-      ]
-  },
-  {
-      "name": "Antigua and Barbuda",
-      "languages": [
-          "Creole English",
-          "English"
-      ]
-  },
-  {
-      "name": "Australia",
-      "languages": [
-          "Arabic",
-          "Canton Chinese",
-          "English",
-          "German",
-          "Greek",
-          "Italian",
-          "Serbo-Croatian",
-          "Vietnamese"
-      ]
-  },
-  {
-      "name": "Austria",
-      "languages": [
-          "Czech",
-          "German",
-          "Hungarian",
-          "Polish",
-          "Romanian",
-          "Serbo-Croatian",
-          "Slovene",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Azerbaijan",
-      "languages": [
-          "Armenian",
-          "Azerbaijani",
-          "Lezgian",
-          "Russian"
-      ]
-  },
-  {
-      "name": "Burundi",
-      "languages": [
-          "French",
-          "Kirundi",
-          "Swahili"
-      ]
-  },
-  {
-      "name": "Belgium",
-      "languages": [
-          "Arabic",
-          "Dutch",
-          "French",
-          "German",
-          "Italian",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Benin",
-      "languages": [
-          "Adja",
-          "Aizo",
-          "Bariba",
-          "Fon",
-          "Ful",
-          "Joruba",
-          "Somba"
-      ]
-  },
-  {
-      "name": "Burkina Faso",
-      "languages": [
-          "Busansi",
-          "Dagara",
-          "Dyula",
-          "Ful",
-          "Gurma",
-          "Mossi"
-      ]
-  },
-  {
-      "name": "Bangladesh",
-      "languages": [
-          "Bengali",
-          "Chakma",
-          "Garo",
-          "Khasi",
-          "Marma",
-          "Santhali",
-          "Tripuri"
-      ]
-  },
-  {
-      "name": "Bulgaria",
-      "languages": [
-          "Bulgariana",
-          "Macedonian",
-          "Romani",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Bahrain",
-      "languages": [
-          "Arabic",
-          "English"
-      ]
-  },
-  {
-      "name": "Bahamas",
-      "languages": [
-          "Creole English",
-          "Creole French"
-      ]
-  },
-  {
-      "name": "Bosnia and Herzegovina",
-      "languages": [
-          "Bosnian"
-      ]
-  },
-  {
-      "name": "Belarus",
-      "languages": [
-          "Belorussian",
-          "Polish",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Belize",
-      "languages": [
-          "English",
-          "Garifuna",
-          "Maya Languages",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Bermuda",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Bolivia",
-      "languages": [
-          "Aimar√°",
-          "Guaran√≠",
-          "Ket¬öua",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Brazil",
-      "languages": [
-          "German",
-          "Indian Languages",
-          "Italian",
-          "Japanese",
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Barbados",
-      "languages": [
-          "Bajan",
-          "English"
-      ]
-  },
-  {
-      "name": "Brunei",
-      "languages": [
-          "Chinese",
-          "English",
-          "Malay",
-          "Malay-English"
-      ]
-  },
-  {
-      "name": "Bhutan",
-      "languages": [
-          "Asami",
-          "Dzongkha",
-          "Nepali"
-      ]
-  },
-  {
-      "name": "Botswana",
-      "languages": [
-          "Khoekhoe",
-          "Ndebele",
-          "San",
-          "Shona",
-          "Tswana"
-      ]
-  },
-  {
-      "name": "Central African Republic",
-      "languages": [
-          "Banda",
-          "Gbaya",
-          "Mandjia",
-          "Mbum",
-          "Ngbaka",
-          "Sara"
-      ]
-  },
-  {
-      "name": "Canada",
-      "languages": [
-          "Chinese",
-          "Dutch",
-          "English",
-          "Eskimo Languages",
-          "French",
-          "German",
-          "Italian",
-          "Polish",
-          "Portuguese",
-          "Punjabi",
-          "Spanish",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Cocos (Keeling) Islands",
-      "languages": [
-          "English",
-          "Malay"
-      ]
-  },
-  {
-      "name": "Switzerland",
-      "languages": [
-          "French",
-          "German",
-          "Italian",
-          "Romansh"
-      ]
-  },
-  {
-      "name": "Chile",
-      "languages": [
-          "Aimar√°",
-          "Araucan",
-          "Rapa nui",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "China",
-      "languages": [
-          "Chinese",
-          "Dong",
-          "Hui",
-          "Mant¬öu",
-          "Miao",
-          "Mongolian",
-          "Puyi",
-          "Tibetan",
-          "Tujia",
-          "Uighur",
-          "Yi",
-          "Zhuang"
-      ]
-  },
-  {
-      "name": "Ivory Coast",
-      "languages": [
-          "Akan",
-          "Gur",
-          "Kru",
-          "Malinke",
-          "[South]Mande"
-      ]
-  },
-  {
-      "name": "Cameroon",
-      "languages": [
-          "Bamileke-bamum",
-          "Duala",
-          "Fang",
-          "Ful",
-          "Maka",
-          "Mandara",
-          "Masana",
-          "Tikar"
-      ]
-  },
-  {
-      "name": "Congo, The Democratic Republic of the",
-      "languages": [
-          "Lingala",
-          "Kikongo",
-          "Swahili",
-          "Tshiluba"
-      ]
-  },
-  {
-      "name": "Congo",
-      "languages": [
-          "Kongo",
-          "Mbete",
-          "Mboshi",
-          "Punu",
-          "Sango",
-          "Teke"
-      ]
-  },
-  {
-      "name": "Cook Islands",
-      "languages": [
-          "English",
-          "Maori"
-      ]
-  },
-  {
-      "name": "Colombia",
-      "languages": [
-          "Arawakan",
-          "Caribbean",
-          "Chibcha",
-          "Creole English",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Comoros",
-      "languages": [
-          "Comorian",
-          "Comorian-Arabic",
-          "Comorian-French",
-          "Comorian-madagassi",
-          "Comorian-Swahili"
-      ]
-  },
-  {
-      "name": "Cape Verde",
-      "languages": [
-          "Crioulo",
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Costa Rica",
-      "languages": [
-          "Chibcha",
-          "Chinese",
-          "Creole English",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Cuba",
-      "languages": [
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Christmas Island",
-      "languages": [
-          "Chinese",
-          "English"
-      ]
-  },
-  {
-      "name": "Cayman Islands",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Cyprus",
-      "languages": [
-          "Greek",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Czech Republic",
-      "languages": [
-          "Czech",
-          "German",
-          "Hungarian",
-          "Moravian",
-          "Polish",
-          "Romani",
-          "Silesiana",
-          "Slovak"
-      ]
-  },
-  {
-      "name": "Germany",
-      "languages": [
-          "German",
-          "Greek",
-          "Italian",
-          "Polish",
-          "Southern Slavic Languages",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Djibouti",
-      "languages": [
-          "Afar",
-          "Arabic",
-          "Somali"
-      ]
-  },
-  {
-      "name": "Dominica",
-      "languages": [
-          "Creole English",
-          "Creole French"
-      ]
-  },
-  {
-      "name": "Denmark",
-      "languages": [
-          "Arabic",
-          "Danish",
-          "English",
-          "German",
-          "Norwegian",
-          "Swedish",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Dominican Republic",
-      "languages": [
-          "Creole French",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Algeria",
-      "languages": [
-          "Arabic",
-          "Berberi"
-      ]
-  },
-  {
-      "name": "Ecuador",
-      "languages": [
-          "Ket¬öua",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Egypt",
-      "languages": [
-          "Arabic",
-          "Sinaberberi"
-      ]
-  },
-  {
-      "name": "Eritrea",
-      "languages": [
-          "Afar",
-          "Bilin",
-          "Hadareb",
-          "Saho",
-          "Tigre",
-          "Tigrigna"
-      ]
-  },
-  {
-      "name": "Western Sahara",
-      "languages": [
-          "Arabic"
-      ]
-  },
-  {
-      "name": "Spain",
-      "languages": [
-          "Basque",
-          "Catalan",
-          "Galecian",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Estonia",
-      "languages": [
-          "Belorussian",
-          "Estonian",
-          "Finnish",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Ethiopia",
-      "languages": [
-          "Amharic",
-          "Gurage",
-          "Oromo",
-          "Sidamo",
-          "Somali",
-          "Tigrigna",
-          "Walaita"
-      ]
-  },
-  {
-      "name": "Finland",
-      "languages": [
-          "Estonian",
-          "Finnish",
-          "Russian",
-          "Saame",
-          "Swedish"
-      ]
-  },
-  {
-      "name": "Fiji Islands",
-      "languages": [
-          "Fijian",
-          "Hindi"
-      ]
-  },
-  {
-      "name": "Falkland Islands",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "France",
-      "languages": [
-          "Arabic",
-          "French",
-          "Italian",
-          "Portuguese",
-          "Spanish",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Faroe Islands",
-      "languages": [
-          "Danish",
-          "Faroese"
-      ]
-  },
-  {
-      "name": "Micronesia, Federated States of",
-      "languages": [
-          "Kosrean",
-          "Mortlock",
-          "Pohnpei",
-          "Trukese",
-          "Wolea",
-          "Yap"
-      ]
-  },
-  {
-      "name": "Gabon",
-      "languages": [
-          "Fang",
-          "Mbete",
-          "Mpongwe",
-          "Punu-sira-nzebi"
-      ]
-  },
-  {
-      "name": "United Kingdom",
-      "languages": [
-          "English",
-          "Gaeli",
-          "Kymri"
-      ]
-  },
-  {
-      "name": "Georgia",
-      "languages": [
-          "Abhyasi",
-          "Armenian",
-          "Azerbaijani",
-          "Georgiana",
-          "Osseetti",
-          "Russian"
-      ]
-  },
-  {
-      "name": "Ghana",
-      "languages": [
-          "Akan",
-          "Ewe",
-          "Ga-adangme",
-          "Gurma",
-          "Joruba",
-          "Mossi"
-      ]
-  },
-  {
-      "name": "Gibraltar",
-      "languages": [
-          "Arabic",
-          "English"
-      ]
-  },
-  {
-      "name": "Guinea",
-      "languages": [
-          "Ful",
-          "Kissi",
-          "Kpelle",
-          "Loma",
-          "Malinke",
-          "Susu",
-          "Yalunka"
-      ]
-  },
-  {
-      "name": "Guadeloupe",
-      "languages": [
-          "Creole French",
-          "French"
-      ]
-  },
-  {
-      "name": "Gambia",
-      "languages": [
-          "Diola",
-          "Ful",
-          "Malinke",
-          "Soninke",
-          "Wolof"
-      ]
-  },
-  {
-      "name": "Guinea-Bissau",
-      "languages": [
-          "Balante",
-          "Crioulo",
-          "Ful",
-          "Malinke",
-          "Mandyako",
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Equatorial Guinea",
-      "languages": [
-          "Bubi",
-          "Fang"
-      ]
-  },
-  {
-      "name": "Greece",
-      "languages": [
-          "Greek",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Grenada",
-      "languages": [
-          "Creole English"
-      ]
-  },
-  {
-      "name": "Greenland",
-      "languages": [
-          "Danish",
-          "Greenlandic"
-      ]
-  },
-  {
-      "name": "Guatemala",
-      "languages": [
-          "Cakchiquel",
-          "Kekch√≠",
-          "Mam",
-          "Quich√©",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "French Guiana",
-      "languages": [
-          "Creole French",
-          "Indian Languages"
-      ]
-  },
-  {
-      "name": "Guam",
-      "languages": [
-          "Chamorro",
-          "English",
-          "Japanese",
-          "Korean",
-          "Philippene Languages"
-      ]
-  },
-  {
-      "name": "Guyana",
-      "languages": [
-          "Arawakan",
-          "Caribbean",
-          "Creole English"
-      ]
-  },
-  {
-      "name": "Hong Kong",
-      "languages": [
-          "Canton Chinese",
-          "Chiu chau",
-          "English",
-          "Fukien",
-          "Hakka"
-      ]
-  },
-  {
-      "name": "Honduras",
-      "languages": [
-          "Creole English",
-          "Garifuna",
-          "Miskito",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Croatia",
-      "languages": [
-          "Serbo-Croatian",
-          "Slovene"
-      ]
-  },
-  {
-      "name": "Haiti",
-      "languages": [
-          "French",
-          "Haiti Creole"
-      ]
-  },
-  {
-      "name": "Hungary",
-      "languages": [
-          "German",
-          "Hungarian",
-          "Romani",
-          "Romanian",
-          "Serbo-Croatian",
-          "Slovak"
-      ]
-  },
-  {
-      "name": "Indonesia",
-      "languages": [
-          "Bahasa",
-          "Bali",
-          "Banja",
-          "Batakki",
-          "Bugi",
-          "Javanese",
-          "Madura",
-          "Malay",
-          "Minangkabau",
-          "Sunda"
-      ]
-  },
-  {
-      "name": "India",
-      "languages": [
-          "Asami",
-          "Bengali",
-          "Gujarati",
-          "Hindi",
-          "Kannada",
-          "Malayalam",
-          "Marathi",
-          "Odia",
-          "Punjabi",
-          "Tamil",
-          "Telugu",
-          "Urdu",
-          "Sanskrit",
-          "English",
-          "Konkani",
-          "Nepali",
-          "Bodo",
-          "Kashmiri",
-          "Maithili",
-          "Santali",
-          "Sindhi"
-      ]
-  },
-  {
-      "name": "Ireland",
-      "languages": [
-          "English",
-          "Irish"
-      ]
-  },
-  {
-      "name": "Iran",
-      "languages": [
-          "Arabic",
-          "Azerbaijani",
-          "Bakhtyari",
-          "Balochi",
-          "Gilaki",
-          "Kurdish",
-          "Luri",
-          "Mazandarani",
-          "Persian",
-          "Turkmenian"
-      ]
-  },
-  {
-      "name": "Iraq",
-      "languages": [
-          "Arabic",
-          "Assyrian",
-          "Azerbaijani",
-          "Kurdish",
-          "Persian"
-      ]
-  },
-  {
-      "name": "Iceland",
-      "languages": [
-          "English",
-          "Icelandic"
-      ]
-  },
-  {
-      "name": "Israel",
-      "languages": [
-          "Arabic",
-          "Hebrew",
-          "Russian"
-      ]
-  },
-  {
-      "name": "Italy",
-      "languages": [
-          "Albaniana",
-          "French",
-          "Friuli",
-          "German",
-          "Italian",
-          "Romani",
-          "Sardinian",
-          "Slovene"
-      ]
-  },
-  {
-      "name": "Jamaica",
-      "languages": [
-          "Creole English",
-          "Hindi"
-      ]
-  },
-  {
-      "name": "Jordan",
-      "languages": [
-          "Arabic",
-          "Armenian",
-          "Circassian"
-      ]
-  },
-  {
-      "name": "Japan",
-      "languages": [
-          "Ainu",
-          "Chinese",
-          "English",
-          "Japanese",
-          "Korean",
-          "Philippene Languages"
-      ]
-  },
-  {
-      "name": "Kazakhstan",
-      "languages": [
-          "German",
-          "Kazakh",
-          "Russian",
-          "Tatar",
-          "Ukrainian",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "Kenya",
-      "languages": [
-          "Gusii",
-          "Kalenjin",
-          "Kamba",
-          "Kikuyu",
-          "Luhya",
-          "Luo",
-          "Masai",
-          "Meru",
-          "Nyika",
-          "Turkana"
-      ]
-  },
-  {
-      "name": "Kyrgyzstan",
-      "languages": [
-          "Kazakh",
-          "Kirgiz",
-          "Russian",
-          "Tadzhik",
-          "Tatar",
-          "Ukrainian",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "Cambodia",
-      "languages": [
-          "Chinese",
-          "Khmer",
-          "T¬öam",
-          "Vietnamese"
-      ]
-  },
-  {
-      "name": "Kiribati",
-      "languages": [
-          "Kiribati",
-          "Tuvalu"
-      ]
-  },
-  {
-      "name": "Saint Kitts and Nevis",
-      "languages": [
-          "Creole English",
-          "English"
-      ]
-  },
-  {
-      "name": "South Korea",
-      "languages": [
-          "Chinese",
-          "Korean"
-      ]
-  },
-  {
-      "name": "Kuwait",
-      "languages": [
-          "Arabic",
-          "English"
-      ]
-  },
-  {
-      "name": "Laos",
-      "languages": [
-          "Lao",
-          "Lao-Soung",
-          "Mon-khmer",
-          "Thai"
-      ]
-  },
-  {
-      "name": "Lebanon",
-      "languages": [
-          "Arabic",
-          "Armenian",
-          "French"
-      ]
-  },
-  {
-      "name": "Liberia",
-      "languages": [
-          "Bassa",
-          "Gio",
-          "Grebo",
-          "Kpelle",
-          "Kru",
-          "Loma",
-          "Malinke",
-          "Mano"
-      ]
-  },
-  {
-      "name": "Libyan Arab Jamahiriya",
-      "languages": [
-          "Arabic",
-          "Berberi"
-      ]
-  },
-  {
-      "name": "Saint Lucia",
-      "languages": [
-          "Creole French",
-          "English"
-      ]
-  },
-  {
-      "name": "Liechtenstein",
-      "languages": [
-          "German",
-          "Italian",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Sri Lanka",
-      "languages": [
-          "Mixed Languages",
-          "Singali",
-          "Tamil"
-      ]
-  },
-  {
-      "name": "Lesotho",
-      "languages": [
-          "English",
-          "Sotho",
-          "Zulu"
-      ]
-  },
-  {
-      "name": "Lithuania",
-      "languages": [
-          "Belorussian",
-          "Lithuanian",
-          "Polish",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Luxembourg",
-      "languages": [
-          "French",
-          "German",
-          "Italian",
-          "Luxembourgish",
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Latvia",
-      "languages": [
-          "Belorussian",
-          "Latvian",
-          "Lithuanian",
-          "Polish",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Macao",
-      "languages": [
-          "Canton Chinese",
-          "English",
-          "Mandarin Chinese",
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Morocco",
-      "languages": [
-          "Arabic",
-          "Berberi"
-      ]
-  },
-  {
-      "name": "Monaco",
-      "languages": [
-          "English",
-          "French",
-          "Italian",
-          "Monegasque"
-      ]
-  },
-  {
-      "name": "Moldova",
-      "languages": [
-          "Bulgariana",
-          "Gagauzi",
-          "Romanian",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Madagascar",
-      "languages": [
-          "French",
-          "Malagasy"
-      ]
-  },
-  {
-      "name": "Maldives",
-      "languages": [
-          "Dhivehi",
-          "English"
-      ]
-  },
-  {
-      "name": "Mexico",
-      "languages": [
-          "Mixtec",
-          "N√°huatl",
-          "Otom√≠",
-          "Spanish",
-          "Yucatec",
-          "Zapotec"
-      ]
-  },
-  {
-      "name": "Marshall Islands",
-      "languages": [
-          "English",
-          "Marshallese"
-      ]
-  },
-  {
-      "name": "Macedonia",
-      "languages": [
-          "Albaniana",
-          "Macedonian",
-          "Romani",
-          "Serbo-Croatian",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Mali",
-      "languages": [
-          "Bambara",
-          "Ful",
-          "Senufo and Minianka",
-          "Songhai",
-          "Soninke",
-          "Tamashek"
-      ]
-  },
-  {
-      "name": "Malta",
-      "languages": [
-          "English",
-          "Maltese"
-      ]
-  },
-  {
-      "name": "Myanmar",
-      "languages": [
-          "Burmese",
-          "Chin",
-          "Kachin",
-          "Karen",
-          "Kayah",
-          "Mon",
-          "Rakhine",
-          "Shan"
-      ]
-  },
-  {
-      "name": "Mongolia",
-      "languages": [
-          "Bajad",
-          "Buryat",
-          "Dariganga",
-          "Dorbet",
-          "Kazakh",
-          "Mongolian"
-      ]
-  },
-  {
-      "name": "Northern Mariana Islands",
-      "languages": [
-          "Carolinian",
-          "Chamorro",
-          "Chinese",
-          "English",
-          "Korean",
-          "Philippene Languages"
-      ]
-  },
-  {
-      "name": "Mozambique",
-      "languages": [
-          "Chuabo",
-          "Lomwe",
-          "Makua",
-          "Marendje",
-          "Nyanja",
-          "Ronga",
-          "Sena",
-          "Shona",
-          "Tsonga",
-          "Tswa"
-      ]
-  },
-  {
-      "name": "Mauritania",
-      "languages": [
-          "Ful",
-          "Hassaniya",
-          "Soninke",
-          "Tukulor",
-          "Wolof",
-          "Zenaga"
-      ]
-  },
-  {
-      "name": "Montserrat",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Martinique",
-      "languages": [
-          "Creole French",
-          "French"
-      ]
-  },
-  {
-      "name": "Mauritius",
-      "languages": [
-          "Bhojpuri",
-          "Creole French",
-          "French",
-          "Hindi",
-          "Marathi",
-          "Tamil"
-      ]
-  },
-  {
-      "name": "Malawi",
-      "languages": [
-          "Chichewa",
-          "Lomwe",
-          "Ngoni",
-          "Yao"
-      ]
-  },
-  {
-      "name": "Malaysia",
-      "languages": [
-          "Chinese",
-          "Dusun",
-          "English",
-          "Iban",
-          "Malay",
-          "Tamil"
-      ]
-  },
-  {
-      "name": "Mayotte",
-      "languages": [
-          "French",
-          "Mahor√©",
-          "Malagasy"
-      ]
-  },
-  {
-      "name": "Namibia",
-      "languages": [
-          "Afrikaans",
-          "Caprivi",
-          "German",
-          "Herero",
-          "Kavango",
-          "Nama",
-          "Ovambo",
-          "San"
-      ]
-  },
-  {
-      "name": "New Caledonia",
-      "languages": [
-          "French",
-          "Malenasian Languages",
-          "Polynesian Languages"
-      ]
-  },
-  {
-      "name": "Niger",
-      "languages": [
-          "Ful",
-          "Hausa",
-          "Kanuri",
-          "Songhai-zerma",
-          "Tamashek"
-      ]
-  },
-  {
-      "name": "Norfolk Island",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Nigeria",
-      "languages": [
-          "Bura",
-          "Edo",
-          "Ful",
-          "Hausa",
-          "Ibibio",
-          "Ibo",
-          "Ijo",
-          "Joruba",
-          "Kanuri",
-          "Tiv"
-      ]
-  },
-  {
-      "name": "Nicaragua",
-      "languages": [
-          "Creole English",
-          "Miskito",
-          "Spanish",
-          "Sumo"
-      ]
-  },
-  {
-      "name": "Niue",
-      "languages": [
-          "English",
-          "Niue"
-      ]
-  },
-  {
-      "name": "Netherlands",
-      "languages": [
-          "Arabic",
-          "Dutch",
-          "Fries",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Norway",
-      "languages": [
-          "Danish",
-          "English",
-          "Norwegian",
-          "Saame",
-          "Swedish"
-      ]
-  },
-  {
-      "name": "Nepal",
-      "languages": [
-          "Bhojpuri",
-          "Hindi",
-          "Maithili",
-          "Nepali",
-          "Newari",
-          "Tamang",
-          "Tharu"
-      ]
-  },
-  {
-      "name": "Nauru",
-      "languages": [
-          "Chinese",
-          "English",
-          "Kiribati",
-          "Nauru",
-          "Tuvalu"
-      ]
-  },
-  {
-      "name": "New Zealand",
-      "languages": [
-          "English",
-          "Maori"
-      ]
-  },
-  {
-      "name": "Oman",
-      "languages": [
-          "Arabic",
-          "Balochi"
-      ]
-  },
-  {
-      "name": "Pakistan",
-      "languages": [
-          "Balochi",
-          "Brahui",
-          "Hindko",
-          "Pashto",
-          "Punjabi",
-          "Saraiki",
-          "Sindhi",
-          "Urdu"
-      ]
-  },
-  {
-      "name": "Panama",
-      "languages": [
-          "Arabic",
-          "Creole English",
-          "Cuna",
-          "Embera",
-          "Guaym√≠",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Pitcairn",
-      "languages": [
-          "Pitcairnese"
-      ]
-  },
-  {
-      "name": "Peru",
-      "languages": [
-          "Aimar√°",
-          "Ket¬öua",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Philippines",
-      "languages": [
-          "Bicol",
-          "Cebuano",
-          "Hiligaynon",
-          "Ilocano",
-          "Maguindanao",
-          "Maranao",
-          "Pampango",
-          "Pangasinan",
-          "Pilipino",
-          "Waray-waray"
-      ]
-  },
-  {
-      "name": "Palau",
-      "languages": [
-          "Chinese",
-          "English",
-          "Palau",
-          "Philippene Languages"
-      ]
-  },
-  {
-      "name": "Papua New Guinea",
-      "languages": [
-          "Malenasian Languages",
-          "Papuan Languages"
-      ]
-  },
-  {
-      "name": "Poland",
-      "languages": [
-          "Belorussian",
-          "German",
-          "Polish",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Puerto Rico",
-      "languages": [
-          "English",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "North Korea",
-      "languages": [
-          "Chinese",
-          "Korean"
-      ]
-  },
-  {
-      "name": "Portugal",
-      "languages": [
-          "Portuguese"
-      ]
-  },
-  {
-      "name": "Paraguay",
-      "languages": [
-          "German",
-          "Guaran√≠",
-          "Portuguese",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Palestine",
-      "languages": [
-          "Arabic",
-          "Hebrew"
-      ]
-  },
-  {
-      "name": "French Polynesia",
-      "languages": [
-          "Chinese",
-          "French",
-          "Tahitian"
-      ]
-  },
-  {
-      "name": "Qatar",
-      "languages": [
-          "Arabic",
-          "Urdu"
-      ]
-  },
-  {
-      "name": "Reunion",
-      "languages": [
-          "Chinese",
-          "Comorian",
-          "Creole French",
-          "Malagasy",
-          "Tamil"
-      ]
-  },
-  {
-      "name": "Romania",
-      "languages": [
-          "German",
-          "Hungarian",
-          "Romani",
-          "Romanian",
-          "Serbo-Croatian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Russian Federation",
-      "languages": [
-          "Avarian",
-          "Bashkir",
-          "Belorussian",
-          "Chechen",
-          "Chuvash",
-          "Kazakh",
-          "Mari",
-          "Mordva",
-          "Russian",
-          "Tatar",
-          "Udmur",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "Rwanda",
-      "languages": [
-          "French",
-          "Rwanda"
-      ]
-  },
-  {
-      "name": "Saudi Arabia",
-      "languages": [
-          "Arabic"
-      ]
-  },
-  {
-      "name": "Sudan",
-      "languages": [
-          "Arabic",
-          "Bari",
-          "Beja",
-          "Chilluk",
-          "Dinka",
-          "Fur",
-          "Lotuko",
-          "Nubian Languages",
-          "Nuer",
-          "Zande"
-      ]
-  },
-  {
-      "name": "Senegal",
-      "languages": [
-          "Diola",
-          "Ful",
-          "Malinke",
-          "Serer",
-          "Soninke",
-          "Wolof"
-      ]
-  },
-  {
-      "name": "Serbia",
-      "languages": [
-          "Serbian",
-          "Hungarian",
-          "Slovak",
-          "Romanian",
-          "Croatian",
-          "Rusyn", 
-          "Albanian",
-          "Bulgarian", 
-          "English"
-      ]
-  },
-  {
-      "name": "Singapore",
-      "languages": [
-          "Chinese",
-          "Malay",
-          "Tamil"
-      ]
-  },
-  {
-      "name": "Saint Helena",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Svalbard and Jan Mayen",
-      "languages": [
-          "Norwegian",
-          "Russian"
-      ]
-  },
-  {
-      "name": "Solomon Islands",
-      "languages": [
-          "Malenasian Languages",
-          "Papuan Languages",
-          "Polynesian Languages"
-      ]
-  },
-  {
-      "name": "Sierra Leone",
-      "languages": [
-          "Bullom-sherbro",
-          "Ful",
-          "Kono-vai",
-          "Kuranko",
-          "Limba",
-          "Mende",
-          "Temne",
-          "Yalunka"
-      ]
-  },
-  {
-      "name": "El Salvador",
-      "languages": [
-          "Nahua",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "San Marino",
-      "languages": [
-          "Italian"
-      ]
-  },
-  {
-      "name": "Somalia",
-      "languages": [
-          "Arabic",
-          "Somali"
-      ]
-  },
-  {
-      "name": "Saint Pierre and Miquelon",
-      "languages": [
-          "French"
-      ]
-  },
-  {
-      "name": "Sao Tome and Principe",
-      "languages": [
-          "Crioulo",
-          "French"
-      ]
-  },
-  {
-      "name": "Suriname",
-      "languages": [
-          "Hindi",
-          "Sranantonga"
-      ]
-  },
-  {
-      "name": "Slovakia",
-      "languages": [
-          "Czech and Moravian",
-          "Hungarian",
-          "Romani",
-          "Slovak",
-          "Ukrainian and Russian"
-      ]
-  },
-  {
-      "name": "Slovenia",
-      "languages": [
-          "Hungarian",
-          "Serbo-Croatian",
-          "Slovene"
-      ]
-  },
-  {
-      "name": "Sweden",
-      "languages": [
-          "Arabic",
-          "Finnish",
-          "Norwegian",
-          "Southern Slavic Languages",
-          "Spanish",
-          "Swedish"
-      ]
-  },
-  {
-      "name": "Swaziland",
-      "languages": [
-          "Swazi",
-          "Zulu"
-      ]
-  },
-  {
-      "name": "Seychelles",
-      "languages": [
-          "English",
-          "French",
-          "Seselwa"
-      ]
-  },
-  {
-      "name": "Syria",
-      "languages": [
-          "Arabic",
-          "Kurdish"
-      ]
-  },
-  {
-      "name": "Turks and Caicos Islands",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Chad",
-      "languages": [
-          "Arabic",
-          "Gorane",
-          "Hadjarai",
-          "Kanem-bornu",
-          "Mayo-kebbi",
-          "Ouaddai",
-          "Sara",
-          "Tandjile"
-      ]
-  },
-  {
-      "name": "Togo",
-      "languages": [
-          "Ane",
-          "Ewe",
-          "Gurma",
-          "Kaby√©",
-          "Kotokoli",
-          "Moba",
-          "Naudemba",
-          "Watyi"
-      ]
-  },
-  {
-      "name": "Thailand",
-      "languages": [
-          "Chinese",
-          "Khmer",
-          "Kuy",
-          "Lao",
-          "Malay",
-          "Thai"
-      ]
-  },
-  {
-      "name": "Tajikistan",
-      "languages": [
-          "Russian",
-          "Tadzhik",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "Tokelau",
-      "languages": [
-          "English",
-          "Tokelau"
-      ]
-  },
-  {
-      "name": "Turkmenistan",
-      "languages": [
-          "Kazakh",
-          "Russian",
-          "Turkmenian",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "East Timor",
-      "languages": [
-          "Portuguese",
-          "Sunda"
-      ]
-  },
-  {
-      "name": "Tonga",
-      "languages": [
-          "English",
-          "Tongan"
-      ]
-  },
-  {
-      "name": "Trinidad and Tobago",
-      "languages": [
-          "Creole English",
-          "English",
-          "Hindi"
-      ]
-  },
-  {
-      "name": "Tunisia",
-      "languages": [
-          "Arabic",
-          "Arabic-French",
-          "Arabic-French-English"
-      ]
-  },
-  {
-      "name": "Turkey",
-      "languages": [
-          "Arabic",
-          "Kurdish",
-          "Turkish"
-      ]
-  },
-  {
-      "name": "Tuvalu",
-      "languages": [
-          "English",
-          "Kiribati",
-          "Tuvalu"
-      ]
-  },
-  {
-      "name": "Taiwan",
-      "languages": [
-          "Ami",
-          "Atayal",
-          "Hakka",
-          "Mandarin Chinese",
-          "Min",
-          "Paiwan"
-      ]
-  },
-  {
-      "name": "Tanzania",
-      "languages": [
-          "Chaga and Pare",
-          "Gogo",
-          "Ha",
-          "Haya",
-          "Hehet",
-          "Luguru",
-          "Makonde",
-          "Nyakusa",
-          "Nyamwesi",
-          "Shambala",
-          "Swahili"
-      ]
-  },
-  {
-      "name": "Uganda",
-      "languages": [
-          "Acholi",
-          "Ganda",
-          "Gisu",
-          "Kiga",
-          "Lango",
-          "Lugbara",
-          "Nkole",
-          "Rwanda",
-          "Soga",
-          "Teso"
-      ]
-  },
-  {
-      "name": "Ukraine",
-      "languages": [
-          "Belorussian",
-          "Bulgariana",
-          "Hungarian",
-          "Polish",
-          "Romanian",
-          "Russian",
-          "Ukrainian"
-      ]
-  },
-  {
-      "name": "United States Minor Outlying Islands",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Uruguay",
-      "languages": [
-          "Spanish"
-      ]
-  },
-  {
-      "name": "United States",
-      "languages": [
-          "Chinese",
-          "English",
-          "French",
-          "German",
-          "Italian",
-          "Japanese",
-          "Korean",
-          "Polish",
-          "Portuguese",
-          "Spanish",
-          "Tagalog",
-          "Vietnamese"
-      ]
-  },
-  {
-      "name": "Uzbekistan",
-      "languages": [
-          "Karakalpak",
-          "Kazakh",
-          "Russian",
-          "Tadzhik",
-          "Tatar",
-          "Uzbek"
-      ]
-  },
-  {
-      "name": "Holy See (Vatican City State)",
-      "languages": [
-          "Italian"
-      ]
-  },
-  {
-      "name": "Saint Vincent and the Grenadines",
-      "languages": [
-          "Creole English",
-          "English"
-      ]
-  },
-  {
-      "name": "Venezuela",
-      "languages": [
-          "Goajiro",
-          "Spanish",
-          "Warrau"
-      ]
-  },
-  {
-      "name": "Virgin Islands, British",
-      "languages": [
-          "English"
-      ]
-  },
-  {
-      "name": "Virgin Islands, U.S.",
-      "languages": [
-          "English",
-          "French",
-          "Spanish"
-      ]
-  },
-  {
-      "name": "Vietnam",
-      "languages": [
-          "Chinese",
-          "Khmer",
-          "Man",
-          "Miao",
-          "Muong",
-          "Nung",
-          "Thai",
-          "Tho",
-          "Vietnamese"
-      ]
-  },
-  {
-      "name": "Vanuatu",
-      "languages": [
-          "Bislama",
-          "English",
-          "French"
-      ]
-  },
-  {
-      "name": "Wallis and Futuna",
-      "languages": [
-          "Futuna",
-          "Wallis"
-      ]
-  },
-  {
-      "name": "Samoa",
-      "languages": [
-          "English",
-          "Samoan",
-          "Samoan-English"
-      ]
-  },
-  {
-      "name": "Yemen",
-      "languages": [
-          "Arabic",
-          "Soqutri"
-      ]
-  },
-  {
-      "name": "South Africa",
-      "languages": [
-          "Afrikaans",
-          "English",
-          "Ndebele",
-          "Northsotho",
-          "Southsotho",
-          "Swazi",
-          "Tsonga",
-          "Tswana",
-          "Venda",
-          "Xhosa",
-          "Zulu"
-      ]
-  },
-  {
-      "name": "Zambia",
-      "languages": [
-          "Bemba",
-          "Chewa",
-          "Lozi",
-          "Nsenga",
-          "Nyanja",
-          "Tongan"
-      ]
-  },
-  {
-      "name": "Zimbabwe",
-      "languages": [
-          "English",
-          "Ndebele",
-          "Nyanja",
-          "Shona"
-      ]
-  }
+  { "code": "AD", "name": "Andorra" },
+  { "code": "AE", "name": "United Arab Emirates" },
+  { "code": "AF", "name": "Afghanistan" },
+  { "code": "AG", "name": "Antigua and Barbuda" },
+  { "code": "AI", "name": "Anguilla" },
+  { "code": "AL", "name": "Albania" },
+  { "code": "AM", "name": "Armenia" },
+  { "code": "AO", "name": "Angola" },
+  { "code": "AQ", "name": "Antarctica" },
+  { "code": "AR", "name": "Argentina" },
+  { "code": "AS", "name": "American Samoa" },
+  { "code": "AT", "name": "Austria" },
+  { "code": "AU", "name": "Australia" },
+  { "code": "AW", "name": "Aruba" },
+  { "code": "AX", "name": "Åland Islands" },
+  { "code": "AZ", "name": "Azerbaijan" },
+  { "code": "BA", "name": "Bosnia and Herzegovina" },
+  { "code": "BB", "name": "Barbados" },
+  { "code": "BD", "name": "Bangladesh" },
+  { "code": "BE", "name": "Belgium" },
+  { "code": "BF", "name": "Burkina Faso" },
+  { "code": "BG", "name": "Bulgaria" },
+  { "code": "BH", "name": "Bahrain" },
+  { "code": "BI", "name": "Burundi" },
+  { "code": "BJ", "name": "Benin" },
+  { "code": "BL", "name": "Saint Barthélemy" },
+  { "code": "BM", "name": "Bermuda" },
+  { "code": "BN", "name": "Brunei Darussalam" },
+  { "code": "BO", "name": "Bolivia, Plurinational State of" },
+  { "code": "BQ", "name": "Bonaire, Sint Eustatius and Saba" },
+  { "code": "BR", "name": "Brazil" },
+  { "code": "BS", "name": "Bahamas" },
+  { "code": "BT", "name": "Bhutan" },
+  { "code": "BV", "name": "Bouvet Island" },
+  { "code": "BW", "name": "Botswana" },
+  { "code": "BY", "name": "Belarus" },
+  { "code": "BZ", "name": "Belize" },
+  { "code": "CA", "name": "Canada" },
+  { "code": "CC", "name": "Cocos (Keeling) Islands" },
+  { "code": "CD", "name": "Congo, Democratic Republic of the" },
+  { "code": "CF", "name": "Central African Republic" },
+  { "code": "CG", "name": "Congo" },
+  { "code": "CH", "name": "Switzerland" },
+  { "code": "CI", "name": "Côte d'Ivoire" },
+  { "code": "CK", "name": "Cook Islands" },
+  { "code": "CL", "name": "Chile" },
+  { "code": "CM", "name": "Cameroon" },
+  { "code": "CN", "name": "China" },
+  { "code": "CO", "name": "Colombia" },
+  { "code": "CR", "name": "Costa Rica" },
+  { "code": "CU", "name": "Cuba" },
+  { "code": "CV", "name": "Cabo Verde" },
+  { "code": "CW", "name": "Curaçao" },
+  { "code": "CX", "name": "Christmas Island" },
+  { "code": "CY", "name": "Cyprus" },
+  { "code": "CZ", "name": "Czechia" },
+  { "code": "DE", "name": "Germany" },
+  { "code": "DJ", "name": "Djibouti" },
+  { "code": "DK", "name": "Denmark" },
+  { "code": "DM", "name": "Dominica" },
+  { "code": "DO", "name": "Dominican Republic" },
+  { "code": "DZ", "name": "Algeria" },
+  { "code": "EC", "name": "Ecuador" },
+  { "code": "EE", "name": "Estonia" },
+  { "code": "EG", "name": "Egypt" },
+  { "code": "EH", "name": "Western Sahara" },
+  { "code": "ER", "name": "Eritrea" },
+  { "code": "ES", "name": "Spain" },
+  { "code": "ET", "name": "Ethiopia" },
+  { "code": "FI", "name": "Finland" },
+  { "code": "FJ", "name": "Fiji" },
+  { "code": "FK", "name": "Falkland Islands (Malvinas)" },
+  { "code": "FM", "name": "Micronesia, Federated States of" },
+  { "code": "FO", "name": "Faroe Islands" },
+  { "code": "FR", "name": "France" },
+  { "code": "GA", "name": "Gabon" },
+  { "code": "GB", "name": "United Kingdom of Great Britain and Northern Ireland" },
+  { "code": "GD", "name": "Grenada" },
+  { "code": "GE", "name": "Georgia" },
+  { "code": "GF", "name": "French Guiana" },
+  { "code": "GG", "name": "Guernsey" },
+  { "code": "GH", "name": "Ghana" },
+  { "code": "GI", "name": "Gibraltar" },
+  { "code": "GL", "name": "Greenland" },
+  { "code": "GM", "name": "Gambia" },
+  { "code": "GN", "name": "Guinea" },
+  { "code": "GP", "name": "Guadeloupe" },
+  { "code": "GQ", "name": "Equatorial Guinea" },
+  { "code": "GR", "name": "Greece" },
+  { "code": "GS", "name": "South Georgia and the South Sandwich Islands" },
+  { "code": "GT", "name": "Guatemala" },
+  { "code": "GU", "name": "Guam" },
+  { "code": "GW", "name": "Guinea-Bissau" },
+  { "code": "GY", "name": "Guyana" },
+  { "code": "HK", "name": "Hong Kong" },
+  { "code": "HM", "name": "Heard Island and McDonald Islands" },
+  { "code": "HN", "name": "Honduras" },
+  { "code": "HR", "name": "Croatia" },
+  { "code": "HT", "name": "Haiti" },
+  { "code": "HU", "name": "Hungary" },
+  { "code": "ID", "name": "Indonesia" },
+  { "code": "IE", "name": "Ireland" },
+  { "code": "IL", "name": "Israel" },
+  { "code": "IM", "name": "Isle of Man" },
+  { "code": "IN", "name": "India" },
+  { "code": "IO", "name": "British Indian Ocean Territory" },
+  { "code": "IQ", "name": "Iraq" },
+  { "code": "IR", "name": "Iran, Islamic Republic of" },
+  { "code": "IS", "name": "Iceland" },
+  { "code": "IT", "name": "Italy" },
+  { "code": "JE", "name": "Jersey" },
+  { "code": "JM", "name": "Jamaica" },
+  { "code": "JO", "name": "Jordan" },
+  { "code": "JP", "name": "Japan" },
+  { "code": "KE", "name": "Kenya" },
+  { "code": "KG", "name": "Kyrgyzstan" },
+  { "code": "KH", "name": "Cambodia" },
+  { "code": "KI", "name": "Kiribati" },
+  { "code": "KM", "name": "Comoros" },
+  { "code": "KN", "name": "Saint Kitts and Nevis" },
+  { "code": "KP", "name": "Korea, Democratic People's Republic of" },
+  { "code": "KR", "name": "Korea, Republic of" },
+  { "code": "KW", "name": "Kuwait" },
+  { "code": "KY", "name": "Cayman Islands" },
+  { "code": "KZ", "name": "Kazakhstan" },
+  { "code": "LA", "name": "Lao People's Democratic Republic" },
+  { "code": "LB", "name": "Lebanon" },
+  { "code": "LC", "name": "Saint Lucia" },
+  { "code": "LI", "name": "Liechtenstein" },
+  { "code": "LK", "name": "Sri Lanka" },
+  { "code": "LR", "name": "Liberia" },
+  { "code": "LS", "name": "Lesotho" },
+  { "code": "LT", "name": "Lithuania" },
+  { "code": "LU", "name": "Luxembourg" },
+  { "code": "LV", "name": "Latvia" },
+  { "code": "LY", "name": "Libya" },
+  { "code": "MA", "name": "Morocco" },
+  { "code": "MC", "name": "Monaco" },
+  { "code": "MD", "name": "Moldova, Republic of" },
+  { "code": "ME", "name": "Montenegro" },
+  { "code": "MF", "name": "Saint Martin, (French part)" },
+  { "code": "MG", "name": "Madagascar" },
+  { "code": "MH", "name": "Marshall Islands" },
+  { "code": "MK", "name": "North Macedonia" },
+  { "code": "ML", "name": "Mali" },
+  { "code": "MM", "name": "Myanmar" },
+  { "code": "MN", "name": "Mongolia" },
+  { "code": "MO", "name": "Macao" },
+  { "code": "MP", "name": "Northern Mariana Islands" },
+  { "code": "MQ", "name": "Martinique" },
+  { "code": "MR", "name": "Mauritania" },
+  { "code": "MS", "name": "Montserrat" },
+  { "code": "MT", "name": "Malta" },
+  { "code": "MU", "name": "Mauritius" },
+  { "code": "MV", "name": "Maldives" },
+  { "code": "MW", "name": "Malawi" },
+  { "code": "MX", "name": "Mexico" },
+  { "code": "MY", "name": "Malaysia" },
+  { "code": "MZ", "name": "Mozambique" },
+  { "code": "NA", "name": "Namibia" },
+  { "code": "NC", "name": "New Caledonia" },
+  { "code": "NE", "name": "Niger" },
+  { "code": "NF", "name": "Norfolk Island" },
+  { "code": "NG", "name": "Nigeria" },
+  { "code": "NI", "name": "Nicaragua" },
+  { "code": "NL", "name": "Netherlands" },
+  { "code": "NO", "name": "Norway" },
+  { "code": "NP", "name": "Nepal" },
+  { "code": "NR", "name": "Nauru" },
+  { "code": "NU", "name": "Niue" },
+  { "code": "NZ", "name": "New Zealand" },
+  { "code": "OM", "name": "Oman" },
+  { "code": "PA", "name": "Panama" },
+  { "code": "PE", "name": "Peru" },
+  { "code": "PF", "name": "French Polynesia" },
+  { "code": "PG", "name": "Papua New Guinea" },
+  { "code": "PH", "name": "Philippines" },
+  { "code": "PK", "name": "Pakistan" },
+  { "code": "PL", "name": "Poland" },
+  { "code": "PM", "name": "Saint Pierre and Miquelon" },
+  { "code": "PN", "name": "Pitcairn" },
+  { "code": "PR", "name": "Puerto Rico" },
+  { "code": "PS", "name": "Palestine, State of" },
+  { "code": "PT", "name": "Portugal" },
+  { "code": "PW", "name": "Palau" },
+  { "code": "PY", "name": "Paraguay" },
+  { "code": "QA", "name": "Qatar" },
+  { "code": "RE", "name": "Réunion" },
+  { "code": "RO", "name": "Romania" },
+  { "code": "RS", "name": "Serbia" },
+  { "code": "RU", "name": "Russian Federation" },
+  { "code": "RW", "name": "Rwanda" },
+  { "code": "SA", "name": "Saudi Arabia" },
+  { "code": "SB", "name": "Solomon Islands" },
+  { "code": "SC", "name": "Seychelles" },
+  { "code": "SD", "name": "Sudan" },
+  { "code": "SE", "name": "Sweden" },
+  { "code": "SG", "name": "Singapore" },
+  { "code": "SH", "name": "Saint Helena, Ascension and Tristan da Cunha" },
+  { "code": "SI", "name": "Slovenia" },
+  { "code": "SJ", "name": "Svalbard and Jan Mayen" },
+  { "code": "SK", "name": "Slovakia" },
+  { "code": "SL", "name": "Sierra Leone" },
+  { "code": "SM", "name": "San Marino" },
+  { "code": "SN", "name": "Senegal" },
+  { "code": "SO", "name": "Somalia" },
+  { "code": "SR", "name": "Suriname" },
+  { "code": "SS", "name": "South Sudan" },
+  { "code": "ST", "name": "Sao Tome and Principe" },
+  { "code": "SV", "name": "El Salvador" },
+  { "code": "SX", "name": "Sint Maarten, (Dutch part)" },
+  { "code": "SY", "name": "Syrian Arab Republic" },
+  { "code": "SZ", "name": "Eswatini" },
+  { "code": "TC", "name": "Turks and Caicos Islands" },
+  { "code": "TD", "name": "Chad" },
+  { "code": "TF", "name": "French Southern Territories" },
+  { "code": "TG", "name": "Togo" },
+  { "code": "TH", "name": "Thailand" },
+  { "code": "TJ", "name": "Tajikistan" },
+  { "code": "TK", "name": "Tokelau" },
+  { "code": "TL", "name": "Timor-Leste" },
+  { "code": "TM", "name": "Turkmenistan" },
+  { "code": "TN", "name": "Tunisia" },
+  { "code": "TO", "name": "Tonga" },
+  { "code": "TR", "name": "Turkey" },
+  { "code": "TT", "name": "Trinidad and Tobago" },
+  { "code": "TV", "name": "Tuvalu" },
+  { "code": "TW", "name": "Taiwan, Province of China" },
+  { "code": "TZ", "name": "Tanzania, United Republic of" },
+  { "code": "UA", "name": "Ukraine" },
+  { "code": "UG", "name": "Uganda" },
+  { "code": "UM", "name": "United States Minor Outlying Islands" },
+  { "code": "US", "name": "United States of America" },
+  { "code": "UY", "name": "Uruguay" },
+  { "code": "UZ", "name": "Uzbekistan" },
+  { "code": "VA", "name": "Holy See" },
+  { "code": "VC", "name": "Saint Vincent and the Grenadines" },
+  { "code": "VE", "name": "Venezuela, Bolivarian Republic of" },
+  { "code": "VG", "name": "Virgin Islands, British" },
+  { "code": "VI", "name": "Virgin Islands, U.S." },
+  { "code": "VN", "name": "Viet Nam" },
+  { "code": "VU", "name": "Vanuatu" },
+  { "code": "WF", "name": "Wallis and Futuna" },
+  { "code": "WS", "name": "Samoa" },
+  { "code": "YE", "name": "Yemen" },
+  { "code": "YT", "name": "Mayotte" },
+  { "code": "ZA", "name": "South Africa" },
+  { "code": "ZM", "name": "Zambia" },
+  { "code": "ZW", "name": "Zimbabwe" }
 ]

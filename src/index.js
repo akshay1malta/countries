@@ -11,4 +11,11 @@ exports.getAllCountriesNames = () => {
 
 exports.getAllCountriesLanguages = () => {
   return countriesLanguageData
-};
+}
+
+exports.getAllIsoCodes = () => {
+  return countriesData.map((country) => {
+    return country.code;
+  });
+}
+
