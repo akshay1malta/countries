@@ -1,6 +1,7 @@
 "use strict";
 
 const countriesData = require("./countriesData.json");
+const countriesLanguageData = require("./countriesLanguageData.json");
 
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
@@ -9,7 +10,5 @@ exports.getAllCountriesNames = () => {
 };
 
 exports.getAllCountriesLanguages = () => {
-  return countriesData.map((country) => {
-    return country.languages;
-  });
+  return countriesLanguageData
 };
