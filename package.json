@@ -1,5 +1,5 @@
 {
-  "name": "country-info",
+  "name": "get-all-country-info",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
