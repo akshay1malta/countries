@@ -1,8 +1,8 @@
-const { getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode } = require("../src/index");
+const { getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
-var countryFlag = require("../src/countryFlags.json");
-var countryCallingCodes = require("../src/countryCallingCode.json");
+const countryFlag = require("../src/countryFlags.json");
+const countryCallingCodes = require("../src/countryCallingCode.json");
 
 test("Returns all countries", () => {
   expect(getAllCountriesNames()).toEqual(countriesData.map((country) => {
@@ -10,6 +10,15 @@ test("Returns all countries", () => {
   }));
 });
 
+
+describe("Return all countries with their capitals", () => {
+  it('country with capitals', () => {
+    const data = getAllCountriesCapitals();
+    expect(data[0].country).toEqual("Afghanistan");
+    expect(data[0].capital).toEqual("Kabul");
+  })
+
+})
 test("Returns all country codes", () => {
   expect(getAllCountriesCallingCode()).toEqual(countryCallingCodes.map((country) => {
     return country.dial_code;
