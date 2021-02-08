@@ -11,7 +11,7 @@ test("Returns all countries", () => {
 test("Returns all states", () => {
   expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
     return country.states.map(states => {
-      return states.name;
+      return country.name - states.name;
     })
   }));
 });
