@@ -1,9 +1,13 @@
 "use strict";
 
-const continentsData = require("./JSON/continentsData.json");
-const countriesData = require("./JSON/countriesData.json");
-const countriesFlag = require("./JSON/countryFlags.json");
-const timezoneData=require("./JSON/countryTimezone.json")
+const countriesData = require("./countriesData.json");
+const countriesCapitals = require("./countriesCapital.json");
+const countryCallingCodes = require("./countryCallingCode.json");
+const countriesFlag = require("./countryFlags.json");
+const countriesLanguageData = require("./countriesLanguageData.json");
+
+const timezoneData=require("./countryTimezone.json")
+const continentsData = require("./continentsData.json");
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
     return country.name;
@@ -12,29 +16,45 @@ exports.getAllCountriesNames = () => {
 
 exports.getContinentName=(countryName)=>{
  
-  let continentIndex = continentsData.find(country => { 
-    country.country.toLowerCase() === countryName.toLowerCase()
+  let continentIndex = continentsData.findIndex(country => { 
+   return country.country.toLowerCase() === countryName.toLowerCase()
   })
   return continentIndex ? continentsData[continentIndex].continent : undefined;
 };
 
-exports.getcountriesFlag = (countryName) => {
-  let flagIndex = countriesFlag.find(country => {
-    country.name.toLowerCase() === countryName.toLowerCase()
-  })
-  return flagIndex ? countriesFlag[flagIndex].emoji : undefined;
-}
 
 exports.getCountryCode = (countryName)=>{
-  let CountryCodeIndex = countriesFlag.find(country => {
-    country.name.toLowerCase() === countryName.toLowerCase()
+  let CountryCodeIndex = countriesFlag.findIndex(country => {
+   return country.name.toLowerCase() === countryName.toLowerCase()
   })
   return CountryCodeIndex ? countriesFlag[CountryCodeIndex].code : undefined;
 }
 
 exports.getCountryTimeZone = (countryName)=>{
-  let timeZoneIndex=timezoneData.find(country=>{
-    country.name.toLowerCase()===countryName.toLowerCase()
+  let timeZoneIndex =timezoneData.findIndex(country=>{
+    return country.name.toLowerCase()==countryName.toLowerCase()
   })
-  return timeZoneIndex ? timeZoneIndex[timeZoneIndex].timezones : undefined;
+  return timeZoneIndex!=null ? timezoneData[timeZoneIndex].timezones[0] : undefined;
+}
+exports.getAllCountriesCapitals = () => {
+  return countriesCapitals
+};
+exports.getAllCountriesCallingCode = () => {
+  return countryCallingCodes.map((country) => {
+    return country.dial_code;
+  });
+};
+exports.getAllCountriesFlag = () => {
+  return countriesFlag.map((country) => {
+    return country.emoji;
+  });
+};
+exports.getAllCountriesLanguages = () => {
+  return countriesLanguageData
+}
+
+exports.getAllIsoCodes = () => {
+  return countriesData.map((country) => {
+    return country.code;
+  });
 }
