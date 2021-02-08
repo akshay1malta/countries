@@ -12,9 +12,22 @@ test("Returns all countries", () => {
 });
 
 /** Currency Related Test Cases start **/
-test("Returns all currencies", () => {
-  const currenCy = 'USD';
-  expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
+describe("Currency related tests", () => {
+  it('Get Currency Data test', () => {
+    const currenCy = 'USD';
+    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
+  })
+
+  it('Case insensitive get Currency Test', () => {
+    const currenCy = 'uSd';
+    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
+  })
+
+  it('Negative Currency Test', () => {
+    const falsycurrency = 'ud';
+    const actualCurrency = 'USD'
+    expect(JSON.stringify(getCurrencybyCountryCode(actualCurrency))).not.toBe(JSON.stringify(currencyData[falsycurrency.toUpperCase()]));
+  })
 });
 /** Currency Related Test Cases end **/
 
@@ -27,6 +40,7 @@ describe("Return all countries with their capitals", () => {
   })
 
 })
+
 test("Returns all country codes", () => {
   expect(getAllCountriesCallingCode()).toEqual(countryCallingCodes.map((country) => {
     return country.dial_code;
