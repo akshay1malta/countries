@@ -1,4 +1,5 @@
 const { getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
+var countryStates = require("../src/countriesState.json");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
@@ -10,6 +11,13 @@ test("Returns all countries", () => {
   }));
 });
 
+test("Returns all states", () => {
+  expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
+    return country.states.map(states => {
+      return country.name - states.name;
+    })
+  }));
+});
 
 describe("Return all countries with their capitals", () => {
   it('country with capitals', () => {
