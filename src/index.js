@@ -6,9 +6,9 @@ const countriesCapitals = require("./countriesCapital.json");
 const countryCallingCodes = require("./countryCallingCode.json");
 const countriesFlag = require("./countryFlags.json");
 const countriesLanguageData = require("./countriesLanguageData.json");
-
 const timezoneData=require("./countryTimezone.json")
 const continentsData = require("./continentsData.json");
+
 exports.getAllCountriesNames = () => {
   return countriesData.map((country) => {
     return country.name;
@@ -16,7 +16,6 @@ exports.getAllCountriesNames = () => {
 }; 
 
 exports.getContinentName=(countryName)=>{
- 
   let continentIndex = continentsData.findIndex(country => { 
    return country.country.toLowerCase() === countryName.toLowerCase()
   })
@@ -37,6 +36,7 @@ exports.getCountryTimeZone = (countryName)=>{
   })
   return timeZoneIndex!=null ? timezoneData[timeZoneIndex].timezones[0] : undefined;
 }
+
 exports.getAllCountryStateNames = () => {
   return countryStates.map((country) => {
     return country.states.map((states) => {
@@ -44,19 +44,23 @@ exports.getAllCountryStateNames = () => {
     })
   });
 };
+
 exports.getAllCountriesCapitals = () => {
   return countriesCapitals
 };
+
 exports.getAllCountriesCallingCode = () => {
   return countryCallingCodes.map((country) => {
     return country.dial_code;
   });
 };
+
 exports.getAllCountriesFlag = () => {
   return countriesFlag.map((country) => {
     return country.emoji;
   });
 };
+
 exports.getAllCountriesLanguages = () => {
   return countriesLanguageData
 }

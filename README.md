@@ -39,55 +39,14 @@ console.log(getAllIsoCodes()) // get all countries iso code
 # Methods
 | Method | Description | Output
 | --- | --- | --- |
-| getContinentName(Afghanistan) | Return the continents of the coutries |{ "country": "Afghanistan", "continent":"Asia"}|
-| getCountryCode() | Return the codes of the coutries | { "country": "Afghanistan", "continent": "Asia"} |
-
-| getCountryTimeZone() | Return the timezones of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountryStateNames() | Return the states of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountriesNames() | Return the names of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountriesLanguages() | Return the languages of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllIsoCodes() | Return the iso code of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountriesFlag() | Return the flags of coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountriesCallingCode() | Return the calling codes of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-
-| getAllCountriesCapitals() | Return the capitals of coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
+| getContinentName("India") | Return the continents of the coutries | "Asia" |
+| getCountryCode("India") | Return the codes of the coutries | "IN" |
+| getCountryTimeZone("Aruba") | Return the timezones of the coutries | ["America/Aruba"] |
+| getAllCountriesNames() | Return the names of the coutries | ["Andorra", "United Arab Emirates", ...] |
+| getAllCountriesLanguages() | Return the languages of the coutries | [{"name": "Aruba", "languages": [ "Dutch", "English","Papiamento", "Spanish"] }, { "name": "Afghanistan", "languages": [ "Balochi", "Dari", "Pashto", "Turkmenian", "Uzbek"]}] |
+| getAllIsoCodes() | Return the iso code of the coutries | ["AD", "AE", ..] |
+| getAllCountriesFlag() | Return the flags of coutries | ["🇦🇨", "🇦🇩" ..] |
+| getAllCountriesCallingCode() | Return the calling codes of the coutries | ["+93", "+358" ...] |
+| getAllCountriesCapitals() | Return the capitals of coutries |[{ "country": "Afghanistan", "capital": "Kabul" }, { "country": "Albania", "capital": "Tirana" }, ...] |
 
 
