@@ -6,6 +6,18 @@
   "scripts": {
     "test": "jest"
   },
+  "keywords": [
+    "country",
+    "capitals",
+    "country codes",
+    "calling codes",
+    "iso codes",
+    "states",
+    "timezones",
+    "languages",
+    "continent",
+    "flags"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akshay1malta/countries.git"
