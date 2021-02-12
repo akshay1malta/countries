@@ -39,16 +39,8 @@ console.log(getAllIsoCodes()) // get all countries iso code
 # Methods
 | Method | Description | Output
 | --- | --- | --- |
-| getContinentName(Afghanistan) | Return the continents of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
-| getCountryCode() | Return the codes of the coutries |
-    {
-        "country": "Afghanistan",
-        "continent": "Asia"
-    } |
+| getContinentName(Afghanistan) | Return the continents of the coutries |{ "country": "Afghanistan", "continent":"Asia"}|
+| getCountryCode() | Return the codes of the coutries | { "country": "Afghanistan", "continent": "Asia"} |
 
 | getCountryTimeZone() | Return the timezones of the coutries |
     {
