@@ -1,4 +1,4 @@
-const { getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
+const { getAllCountriesNames,getCountryCode, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getContinentName, getCountryTimeZone ,getcountriesFlag} = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
@@ -10,6 +10,21 @@ test("Returns all countries", () => {
   }));
 });
 
+test("Returns Continent",()=>{
+  expect(getContinentName("India")).toBe("Asia");
+})
+
+test("Returns country code", () => {
+  const countryName = "India";
+  const countrycode = "IN";
+  expect(getCountryCode(countryName)).toBe(countrycode)
+})
+
+test("Returns Country time zone",()=>{
+  const countryName="Aruba";
+  const timezone="America/Aruba";
+  expect(getCountryTimeZone(countryName)).toBe(timezone)
+})
 
 describe("Return all countries with their capitals", () => {
   it('country with capitals', () => {
