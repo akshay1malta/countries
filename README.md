@@ -13,8 +13,9 @@ This package provides the information related the countries.This following infor
 # Installation
 `npm i get-all-country-info`
 
+---
 # Usage
-`
+```javascript
 import {
   getAllCountriesNames,
   getAllCountriesCallingCode,
@@ -26,5 +27,5 @@ console.log(getAllCountriesCallingCode) // get all countries calling code
 console.log(getAllIsoCodes) // get all countries iso code
 
 // result will be in array format
-`
+```
 
