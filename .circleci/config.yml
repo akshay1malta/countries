@@ -1,10 +1,16 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
+jobs:
+  build:
+    docker:
+    - image: node:12
+    steps:
+      - run: npm run test
 workflows:
   node-tests:
     jobs:
       - node/test
-jobs:
-    test:
-      - run: echo "this is the test job"
+
+
+
