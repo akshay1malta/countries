@@ -5,3 +5,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
+jobs:
+    test:
+      - run: echo "this is the test job"
