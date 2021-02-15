@@ -1,6 +1,7 @@
 "use strict";
 
 const countriesData = require("./countriesData.json");
+const currencyData = require("./currencyData.json");
 const countryStates = require("./countriesState.json");
 const countriesCapitals = require("./countriesCapital.json");
 const countryCallingCodes = require("./countryCallingCode.json");
@@ -43,6 +44,10 @@ exports.getAllCountryStateNames = () => {
       return country.name - states.name;
     })
   });
+};
+
+exports.getCurrencybyCountryCode = (countryCode, options) => {
+   return currencyData[countryCode.toUpperCase()];
 };
 
 exports.getAllCountriesCapitals = () => {
