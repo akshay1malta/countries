@@ -6,7 +6,8 @@ jobs:
     docker:
     - image: node:12
     steps:
-      - run: npm run test
+      - run:
+        command: npm run test
 workflows:
   node-tests:
     jobs:
