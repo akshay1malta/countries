@@ -39,7 +39,7 @@ test("Returns Continent",()=>{
 
 test("Returns country code", () => {
   const countryName = "India";
-  const countrycode = "IN";
+  const countrycode = "Pak";
   expect(getCountryCode(countryName)).toBe(countrycode)
 })
 
