@@ -1,15 +1,37 @@
-const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
+const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getCurrencybyCountryCode } = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
 const countryCallingCodes = require("../src/countryCallingCode.json");
 const countryStates = require("../src/countriesState.json");
+const currencyData = require("../src/currencyData.json");
+
 
 test("Returns all countries", () => {
   expect(getAllCountriesNames()).toEqual(countriesData.map((country) => {
     return country.name;
   }));
 });
+
+/** Currency Related Test Cases start **/
+describe("Currency related tests", () => {
+  it('Get Currency Data test', () => {
+    const currenCy = 'USD';
+    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
+  })
+
+  it('Case insensitive get Currency Test', () => {
+    const currenCy = 'uSd';
+    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
+  })
+
+  it('Negative Currency Test', () => {
+    const falsycurrency = 'ud';
+    const actualCurrency = 'USD'
+    expect(JSON.stringify(getCurrencybyCountryCode(actualCurrency))).not.toBe(JSON.stringify(currencyData[falsycurrency.toUpperCase()]));
+  })
+});
+/** Currency Related Test Cases end **/
 
 test("Returns Continent",()=>{
   expect(getContinentName("India")).toBe("Asia");
