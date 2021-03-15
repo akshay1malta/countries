@@ -1,3 +1,5 @@
+"use strict";
+
 const countriesData = require("./countriesData.json");
 const currencyData = require("./currencyData.json");
 const countryStates = require("./countriesState.json");

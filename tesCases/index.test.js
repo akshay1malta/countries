@@ -1,4 +1,17 @@
-const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getCurrencybyCountryCode } = require("../src/index");
+const { getCountryInfo } = require("../src/index");
+const {
+  getContinentName,
+  getCountryCode,
+  getCountryTimeZone,
+  getAllCountryStateNames,
+  getAllCountriesNames,
+  getAllCountriesLanguages,
+  getAllIsoCodes,
+  getAllCountriesFlag,
+  getAllCountriesCallingCode,
+  getAllCountriesCapitals,
+  getCurrencybyCountryCode,
+} = require("../src/functions");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
@@ -6,86 +19,70 @@ const countryCallingCodes = require("../src/countryCallingCode.json");
 const countryStates = require("../src/countriesState.json");
 const currencyData = require("../src/currencyData.json");
 
+describe("Common function related tests", () => {
+  it("Returns all countries", () => {
+    expect(getCountryInfo({ methodType: "COUNTRY_NAMES" })).toEqual(
+      getAllCountriesNames()
+    );
+  });
 
-test("Returns all countries", () => {
-  expect(getAllCountriesNames()).toEqual(countriesData.map((country) => {
-    return country.name;
-  }));
-});
+  it("Returns Continent", () => {
+    expect(
+      getCountryInfo({ methodType: "CONTINENT_NAME", attributes: "India" })
+    ).toBe(getContinentName("India"));
+  });
 
-/** Currency Related Test Cases start **/
-describe("Currency related tests", () => {
-  it('Get Currency Data test', () => {
-    const currenCy = 'USD';
-    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
-  })
+  it("Returns country code", () => {
+    expect(
+      getCountryInfo({ methodType: "COUNTRY_CODE", attributes: "India" })
+    ).toBe(getCountryCode("India"));
+  });
 
-  it('Case insensitive get Currency Test', () => {
-    const currenCy = 'uSd';
-    expect(JSON.stringify(getCurrencybyCountryCode(currenCy))).toEqual(JSON.stringify(currencyData[currenCy.toUpperCase()]));
-  })
+  it("Returns Country time zone", () => {
+    expect(
+      getCountryInfo({ methodType: "COUNTRY_TIME_ZONE", attributes: "India" })
+    ).toBe(getCountryTimeZone("India"));
+  });
 
-  it('Negative Currency Test', () => {
-    const falsycurrency = 'ud';
-    const actualCurrency = 'USD'
-    expect(JSON.stringify(getCurrencybyCountryCode(actualCurrency))).not.toBe(JSON.stringify(currencyData[falsycurrency.toUpperCase()]));
-  })
-});
-/** Currency Related Test Cases end **/
+  it("Returns all states", () => {
+    expect(getCountryInfo({ methodType: "COUNTRY_STATE_NAMES" })).toEqual(
+      getAllCountryStateNames()
+    );
+  });
 
-test("Returns Continent",()=>{
-  expect(getContinentName("India")).toBe("Asia");
-})
+  it("Returns currency code", () => {
+    expect(getCountryInfo({ methodType: "CURRENCY", attributes: "USD" })).toBe(
+      getCurrencybyCountryCode("USD")
+    );
+  });
 
-test("Returns country code", () => {
-  const countryName = "India";
-  const countrycode = "IN";
-  expect(getCountryCode(countryName)).toBe(countrycode)
-})
+  it("Return all countries with their capitals", () => {
+    expect(getCountryInfo({ methodType: "COUNTRY_CAPITALS" })).toEqual(
+      getAllCountriesCapitals()
+    );
+  });
 
-test("Returns Country time zone",()=>{
-  const countryName="Aruba";
-  const timezone="America/Aruba";
-  expect(getCountryTimeZone(countryName)).toBe(timezone)
-})
+  it("Returns all country codes", () => {
+    expect(getCountryInfo({ methodType: "CALLING_CODE" })).toEqual(
+      getAllCountriesCallingCode()
+    );
+  });
 
-test("Returns all states", () => {
-  expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
-    return country.states.map(states => {
-      return country.name - states.name;
-    })
-  }));
-});
+  it("Returns all countries flag", () => {
+    expect(getCountryInfo({ methodType: "FLAG" })).toEqual(
+      getAllCountriesFlag()
+    );
+  });
 
-describe("Return all countries with their capitals", () => {
-  it('country with capitals', () => {
-    const data = getAllCountriesCapitals();
-    expect(data[0].country).toEqual("Afghanistan");
-    expect(data[0].capital).toEqual("Kabul");
-  })
+  it("Returns all countries languages", () => {
+    expect(getCountryInfo({ methodType: "LANGUAGES" })).toEqual(
+      getAllCountriesLanguages()
+    );
+  });
 
-})
-
-test("Returns all country codes", () => {
-  expect(getAllCountriesCallingCode()).toEqual(countryCallingCodes.map((country) => {
-    return country.dial_code;
-  }));
-});
-
-test("Returns all countries flag", () => {
-  expect(getAllCountriesFlag()).toEqual(countryFlag.map((flag) => {
-    return flag.name, flag.code, flag.emoji;
-  }));
-});
-
-test("Returns all countries languages", () => {
-  expect(getAllCountriesLanguages()).toEqual(countriesLanguageData.map((country) => {
-    return country;
-  }));
-});
-
-test("Returns iso codes of countries", () => {
-  expect(getAllIsoCodes()).toEqual(countriesData.map((country) => {
-    return country.code;
-  }));
+  it("Returns iso codes of countries", () => {
+    expect(getCountryInfo({ methodType: "ISO_CODES" })).toEqual(
+      getAllIsoCodes()
+    );
+  });
 });
