@@ -1,15 +1,31 @@
-const { getAllCountriesNames, getAllCountryStateNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
-const countryStates = require("../src/countriesState.json");
+const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
 const countryCallingCodes = require("../src/countryCallingCode.json");
+const countryStates = require("../src/countriesState.json");
 
 test("Returns all countries", () => {
   expect(getAllCountriesNames()).toEqual(countriesData.map((country) => {
     return country.name;
   }));
 });
+
+test("Returns Continent",()=>{
+  expect(getContinentName("India")).toBe("Asia");
+})
+
+test("Returns country code", () => {
+  const countryName = "India";
+  const countrycode = "IN";
+  expect(getCountryCode(countryName)).toBe(countrycode)
+})
+
+test("Returns Country time zone",()=>{
+  const countryName="Aruba";
+  const timezone="America/Aruba";
+  expect(getCountryTimeZone(countryName)).toBe(timezone)
+})
 
 test("Returns all countries states", () => {
   expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
@@ -25,16 +41,19 @@ describe("Return all countries with their capitals", () => {
   })
 
 })
+
 test("Returns all country codes", () => {
   expect(getAllCountriesCallingCode()).toEqual(countryCallingCodes.map((country) => {
     return country.dial_code;
   }));
 });
+
 test("Returns all countries flag", () => {
   expect(getAllCountriesFlag()).toEqual(countryFlag.map((flag) => {
     return flag.name, flag.code, flag.emoji;
   }));
 });
+
 test("Returns all countries languages", () => {
   expect(getAllCountriesLanguages()).toEqual(countriesLanguageData.map((country) => {
     return country;
