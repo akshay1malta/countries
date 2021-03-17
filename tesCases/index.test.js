@@ -1,5 +1,5 @@
-const { getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
-var countryStates = require("../src/countriesState.json");
+const { getAllCountriesNames, getAllCountryStateNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals } = require("../src/index");
+const countryStates = require("../src/countriesState.json");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
@@ -11,11 +11,9 @@ test("Returns all countries", () => {
   }));
 });
 
-test("Returns all states", () => {
+test("Returns all countries states", () => {
   expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
-    return country.states.map(states => {
-      return country.name - states.name;
-    })
+    return country;
   }));
 });
 

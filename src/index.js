@@ -14,11 +14,7 @@ exports.getAllCountriesNames = () => {
 };
 
 exports.getAllCountryStateNames = () => {
-  return countryStates.map((country) => {
-    return country.states.map((states) => {
-      return country.name - states.name;
-    })
-  });
+  return countryStates;
 };
 exports.getAllCountriesCapitals = () => {
   return countriesCapitals
