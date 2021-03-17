@@ -49,5 +49,4 @@ console.log(getAllIsoCodes()) // get all countries iso code
 | getAllCountriesCallingCode() | Return the calling codes of the coutries | ["+93", "+358" ...] |
 | getAllCountriesCapitals() | Return the capitals of coutries |[{ "country": "Afghanistan", "capital": "Kabul" }, { "country": "Albania", "capital": "Tirana" }, ...] |
 | getCurrencybyCountryCode("USD") | Return the information about currency of particular country | {symbol: '$', name: 'US Dollar', symbol_native: '$', decimal_digits: 2, rounding: 0, code: 'USD', name_plural: 'US dollars'} |
-
-
+| getAllCountryStateNames() | Return the states of the coutries | [{"country": "Afghanistan", "states": [ "Badakhshan", "Badghis", "Baghlan", ...]}, {"country": "Albania", "states": ["Berat", "Dibres", "Durres",...]}] |
