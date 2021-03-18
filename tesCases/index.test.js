@@ -49,11 +49,9 @@ test("Returns Country time zone",()=>{
   expect(getCountryTimeZone(countryName)).toBe(timezone)
 })
 
-test("Returns all states", () => {
+test("Returns all countries states", () => {
   expect(getAllCountryStateNames()).toEqual(countryStates.map((country) => {
-    return country.states.map(states => {
-      return country.name - states.name;
-    })
+    return country;
   }));
 });
 
