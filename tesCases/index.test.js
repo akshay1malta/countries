@@ -20,6 +20,18 @@ const countryStates = require("../src/countriesState.json");
 const currencyData = require("../src/currencyData.json");
 
 describe("Common function related tests", () => {
+  it("Returns paticular country data", () => {
+    expect(
+      getCountryInfo({
+        methodType: ["CURRENCY", "LANGUAGES"],
+        attributes: "Palestine",
+      })
+    ).toEqual({
+      currency: "ILS",
+      languages: ["ar"],
+    });
+  });
+
   it("Returns all countries", () => {
     expect(getCountryInfo({ methodType: "COUNTRY_NAMES" })).toEqual(
       getAllCountriesNames()
