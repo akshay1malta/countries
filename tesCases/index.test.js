@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getCurrencybyCountryCode } = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
