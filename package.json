@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./"
   },
   "keywords": [
     "country",
@@ -29,6 +30,8 @@
   },
   "homepage": "https://github.com/akshay1malta/countries#readme",
   "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
     "jest": "^26.6.3"
   }
 }

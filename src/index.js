@@ -42,7 +42,7 @@ exports.getAllCountryStateNames = () => {
   return countryStates;
 };
 
-exports.getCurrencybyCountryCode = (countryCode, options) => {
+exports.getCurrencybyCountryCode = (countryCode) => {
    return currencyData[countryCode.toUpperCase()];
 };
 
