@@ -71,3 +71,8 @@ exports.getAllIsoCodes = () => {
     return country.code;
   });
 }
+
+exports.getCountryByCode = (number) => {
+  let getCountryCode = number.split('-')[0]
+  return countryCallingCodes.filter((country) => country.dial_code === getCountryCode)[0] || {}
+}

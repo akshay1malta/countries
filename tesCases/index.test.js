@@ -1,4 +1,4 @@
-const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getCurrencybyCountryCode } = require("../src/index");
+const { getContinentName,getCountryCode,  getCountryTimeZone, getAllCountryStateNames, getAllCountriesNames, getAllCountriesLanguages, getAllIsoCodes, getAllCountriesFlag, getAllCountriesCallingCode, getAllCountriesCapitals, getCurrencybyCountryCode, getCountryByCode } = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");
@@ -87,3 +87,23 @@ test("Returns iso codes of countries", () => {
     return country.code;
   }));
 });
+
+/** Country Code Test Cases start **/
+describe("country code related tests", () => {
+  it('Get country information', () => {
+    const countryObj = {
+      "name": "India",
+      "dial_code": "+91",
+      "code": "IN"
+    };
+    const mobileNumber = "+91-7976411430";
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
+
+  it('Negative country information Test', () => {
+    const countryObj = {}
+    const mobileNumber = "7976411430";
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
+});
+/** Country Code Test Cases end **/
