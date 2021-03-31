@@ -18,6 +18,7 @@ const countryFlag = require("../src/countryFlags.json");
 const countryCallingCodes = require("../src/countryCallingCode.json");
 const countryStates = require("../src/countriesState.json");
 const currencyData = require("../src/currencyData.json");
+const testData = require("../src/test.json");
 
 describe("Common function related tests", () => {
   it("Returns paticular country data", () => {
@@ -30,6 +31,25 @@ describe("Common function related tests", () => {
       currency: "ILS",
       languages: ["ar"],
     });
+  });
+
+  it("Returns paticular data for all countries", () => {
+    expect(
+      getCountryInfo({
+        methodType: [
+          "COUNTRY_NAME",
+          "CAPITAL",
+          "CONTINENT_NAME",
+          "CURRENCY",
+          "LANGUAGES",
+        ],
+        attributes: "",
+      })
+    ).toEqual(
+      testData.map((data) => {
+        return data;
+      })
+    );
   });
 
   it("Returns all countries", () => {
