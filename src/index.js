@@ -73,6 +73,7 @@ exports.getAllIsoCodes = () => {
 }
 
 exports.getCountryByCode = (number) => {
-  let getCountryCode = number.split('-')[0]
+  let countryCode = String(number)
+  let getCountryCode = countryCode.split('-')[0] 
   return countryCallingCodes.filter((country) => country.dial_code === getCountryCode)[0] || {}
 }

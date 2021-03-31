@@ -105,5 +105,11 @@ describe("country code related tests", () => {
     const mobileNumber = "7976411430";
     expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
   })
+
+  it('Negative country information number Test', () => {
+    const countryObj = {}
+    const mobileNumber = 7976411430;
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
 });
 /** Country Code Test Cases end **/

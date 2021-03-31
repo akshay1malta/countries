@@ -50,3 +50,4 @@ console.log(getAllIsoCodes()) // get all countries iso code
 | getAllCountriesCapitals() | Return the capitals of coutries |[{ "country": "Afghanistan", "capital": "Kabul" }, { "country": "Albania", "capital": "Tirana" }, ...] |
 | getCurrencybyCountryCode("USD") | Return the information about currency of particular country | {symbol: '$', name: 'US Dollar', symbol_native: '$', decimal_digits: 2, rounding: 0, code: 'USD', name_plural: 'US dollars'} |
 | getAllCountryStateNames() | Return the states of the coutries | [{"country": "Afghanistan", "states": [ "Badakhshan", "Badghis", "Baghlan", ...]}, {"country": "Albania", "states": ["Berat", "Dibres", "Durres",...]}] |
+| getCountryByCode("+91-7976411430") | Pass the mobile number with country code and it returns the country information | {"name": "India", "dial_code": "+91", "code": "IN" } |
