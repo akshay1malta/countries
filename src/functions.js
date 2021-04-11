@@ -84,3 +84,9 @@ exports.getFilteredObj = (methodType, filterObj) => {
   }
   return newObj;
 };
+
+exports.getCountryByCode = (number) => {
+  let countryCode = String(number)
+  let getCountryCode = countryCode.split('-')[0] 
+  return countryCallingCodes.filter((country) => country.dial_code === getCountryCode)[0] || {}
+}

@@ -11,6 +11,7 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
+  getCountryByCode
 } = require("../src/functions");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
@@ -118,3 +119,29 @@ describe("Common function related tests", () => {
     );
   });
 });
+
+/** Country Code Test Cases start **/
+describe("country code related tests", () => {
+  it('Get country information', () => {
+    const countryObj = {
+      "name": "India",
+      "dial_code": "+91",
+      "code": "IN"
+    };
+    const mobileNumber = "+91-7976411430";
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
+
+  it('Negative country information Test', () => {
+    const countryObj = {}
+    const mobileNumber = "7976411430";
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
+
+  it('Negative country information number Test', () => {
+    const countryObj = {}
+    const mobileNumber = 7976411430;
+    expect(getCountryByCode(mobileNumber)).toEqual(countryObj)
+  })
+});
+/** Country Code Test Cases end **/
