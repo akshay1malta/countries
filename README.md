@@ -34,18 +34,41 @@ console.log(getAllCountriesCallingCode()) // get all countries calling code
 
 console.log(getAllIsoCodes()) // get all countries iso code
 
+// To use getCountryInfo pass the following object as parameter
+
+const paramObject = {
+  methodType: keyword, // Required Keyword can be found in the Keywords table 
+  attributes: empty or country name
+}
+
+getCountryInfo(paramObject)
+
+// getCountryInfo fu7nction can be implemented in three ways
+
+// 1. Put methodType = Keyword, attributes = empty or country name
+// Output = Returns details depending upon the keyword provided in methodType for 
+//          a particular country(if attributes value is non-empty) and for all 
+//          countries (if attributes value is empty)
+
 const options = {
-  methodType: "COUNTRY_NAMES,
+  methodType: "COUNTRY_NAMES",
   attributes: ""
 }
 console.log(getCountryInfo(options)) // get all countries name
 
+// 2. Put methodType = array of keywords, attributes = country name
+// Output = Returns details depending upon the keyword provided in methodType for a
+//          particular country
 const options = {
   methodType: ["CONTINENT_NAME", "COUNTRY_CODE"],
   attributes: "India"
 }
 console.log(getCountryInfo(options)) // get continent and country code of the country
 
+// 3. Put methodType = array of keywords, attributes = empty
+// Output = Returns details depending upon the keyword provided in methodType for 
+//          a particular country(if attributes value is non-empty) and for all 
+//          countries (if attributes value is empty) 
 const options = {
   methodType:  ["CONTINENT_NAME", "COUNTRY_CODE"],
   attributes: ""
