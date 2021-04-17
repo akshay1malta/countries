@@ -43,7 +43,7 @@ const paramObject = {
 
 getCountryInfo(paramObject)
 
-// getCountryInfo fu7nction can be implemented in three ways
+// getCountryInfo function can be implemented in three ways
 
 // 1. Put methodType = Keyword, attributes = empty or country name
 // Output = Returns details depending upon the keyword provided in methodType for 
@@ -79,7 +79,7 @@ console.log(getCountryInfo(options)) // get all countries code and continent nam
 ```
 
 ---
-# Keywords
+<!-- # Keywords
 | Keyword | Description | Output
 | --- | --- | --- |
 | CONTINENT_NAME | Return the continents of the coutries | "Asia" |
@@ -94,7 +94,7 @@ console.log(getCountryInfo(options)) // get all countries code and continent nam
 | CURRENCY | Return the information about currency of particular country | {symbol: '$', name: 'US Dollar', symbol_native: '$', decimal_digits: 2, rounding: 0, code: 'USD', name_plural: 'US dollars'} |
 | COUNTRY_STATE_NAMES | Return the states of the coutries | [{"country": "Afghanistan", "states": [ "Badakhshan", "Badghis", "Baghlan", ...]}, {"country": "Albania", "states": ["Berat", "Dibres", "Durres",...]}] |
 
----
+--- -->
 # Methods
 | Method | Description | Output
 | --- | --- | --- |
@@ -110,3 +110,4 @@ console.log(getCountryInfo(options)) // get all countries code and continent nam
 | getCurrencybyCountryCode("USD") | Return the information about currency of particular country | {symbol: '$', name: 'US Dollar', symbol_native: '$', decimal_digits: 2, rounding: 0, code: 'USD', name_plural: 'US dollars'} |
 | getAllCountryStateNames() | Return the states of the coutries | [{"country": "Afghanistan", "states": [ "Badakhshan", "Badghis", "Baghlan", ...]}, {"country": "Albania", "states": ["Berat", "Dibres", "Durres",...]}] |
 | getCountryByCode("+91-7976411430") | Pass the mobile number with country code and it returns the country information | {"name": "India", "dial_code": "+91", "code": "IN" } |
+| getCountryInfo(paramObject) | const paramObject = {methodType: keyword, (keywords can be string or array, keyword values are: CONTINENT_NAME, COUNTRY_CODE, COUNTRY_TIME_ZONE, COUNTRY_NAMES, LANGUAGES, ISO_CODES, FLAG, CALLING_CODE, COUNTRY_CAPITALS, CURRENCY, COUNTRY_STATE_NAMES) attributes: empty or country name} | returns according to the parameters |
