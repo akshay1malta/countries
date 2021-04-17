@@ -13,12 +13,6 @@ const {
   getCurrencybyCountryCode,
   getCountryByCode
 } = require("../src/functions");
-const countriesData = require("../src/countriesData.json");
-const countriesLanguageData = require("../src/countriesLanguageData.json");
-const countryFlag = require("../src/countryFlags.json");
-const countryCallingCodes = require("../src/countryCallingCode.json");
-const countryStates = require("../src/countriesState.json");
-const currencyData = require("../src/currencyData.json");
 const testData = require("../src/test.json");
 
 describe("Common function related tests", () => {
