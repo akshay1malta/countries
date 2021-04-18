@@ -10,7 +10,7 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
-} = require("../src/functions");
+} = require("../src/index");
 const countriesData = require("../src/countriesData.json");
 const countriesLanguageData = require("../src/countriesLanguageData.json");
 const countryFlag = require("../src/countryFlags.json");

@@ -12,7 +12,7 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
-} = require("./functions.js");
+} = require("./index");
 
 let countryDetailsMap = new Map();
 

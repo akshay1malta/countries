@@ -1,4 +1,3 @@
-const { getCountryInfo } = require("../src/index");
 const {
   getContinentName,
   getCountryCode,
@@ -11,8 +10,10 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
-  getCountryByCode
-} = require("../src/functions");
+  getCountryByCode,
+  getCountryInfo
+} = require("../src/index");
+
 const testData = require("../src/test.json");
 
 describe("Common function related tests", () => {
