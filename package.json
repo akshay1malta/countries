@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./"
+    "lint": "eslint . --ext .ts"
   },
   "husky": {
     "hooks": {

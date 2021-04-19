@@ -18,6 +18,7 @@ const {
 } = require("./functions");
 
 let a;
+let b;
 
 exports.getCountryInfo = (options) => {
   const { methodType, attributes } = options;
@@ -44,7 +45,7 @@ exports.getAllCountriesNames = () => {
   return getAllCountriesNames()
 };
 
-exports.getContinentName = (countryName) => {
+exports.getContinentName = (countryName, options) => {
   return getContinentName(countryName)
 };
 
