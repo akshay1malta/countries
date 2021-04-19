@@ -4,10 +4,10 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "lint-staged": "lint-staged",
     "test": "jest",
     "lint": "eslint ./",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
@@ -18,7 +18,9 @@
     "*.{js,jsx}": [
       "eslint",
       "jest --findRelatedTests --bail"
-    ]
+    ],
+    "*.css": "stylelint",
+    "*.scss": "stylelint --syntax=scss"
   },
   "keywords": [
     "country",
