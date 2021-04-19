@@ -7,6 +7,15 @@
     "test": "jest",
     "lint": "eslint ./"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": ["lint-staged"]
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": ["eslint",
+      "jest --findRelatedTests --bail"]
+  },
   "keywords": [
     "country",
     "capitals",
@@ -33,5 +42,9 @@
     "eslint": "^7.23.0",
     "eslint-plugin-react": "^7.23.1",
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^7.3.0"
   }
 }
