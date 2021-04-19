@@ -10,12 +10,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": ["lint-staged"]
+      "pre-commit": "npm run lint"
     }
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint",
+      "lint",
       "jest --findRelatedTests --bail"
     ]
   },
