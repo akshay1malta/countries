@@ -8,7 +8,17 @@
     "lint": "eslint ./",
     "prepare": "husky install"
   },
-  
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint",
+      "jest --findRelatedTests --bail"
+    ]
+  },
   "keywords": [
     "country",
     "capitals",
