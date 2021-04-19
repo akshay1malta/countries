@@ -1,6 +1,6 @@
 # Countries Information
 ---
-This package provides the information related the countries.The following informations are: somem n gnet g    evrerve   eferve
+This package provides the information related the countries.The following informations are:
 * Country name
 * Country capital
 * Country currency
