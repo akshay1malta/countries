@@ -14,11 +14,9 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
-  getFilteredObj
+  getFilteredObj,
+  getCountryByCode
 } = require("./functions");
-
-let a;    
-let b;
 
 exports.getCountryInfo = (options) => {
   const { methodType, attributes } = options;
@@ -45,7 +43,7 @@ exports.getAllCountriesNames = () => {
   return getAllCountriesNames()
 };
 
-exports.getContinentName = (countryName, options) => {
+exports.getContinentName = (countryName) => {
   return getContinentName(countryName)
 };
 
