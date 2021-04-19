@@ -17,6 +17,8 @@ const {
   getFilteredObj
 } = require("./functions");
 
+let a;
+
 exports.getCountryInfo = (options) => {
   const { methodType, attributes } = options;
   if (Array.isArray(methodType)) {
