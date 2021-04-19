@@ -1,6 +1,6 @@
 # Countries Information
 ---
-This package provides the information related the countries.The following informations are:     
+This package provides the information related the countries.The following informations are:    sss    
 * Country name
 * Country capital
 * Country currency
