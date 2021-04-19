@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./"
     
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
