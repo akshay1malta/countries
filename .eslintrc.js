@@ -22,7 +22,7 @@ module.exports = {
     },
     "overrides": [
         {
-          "files": ["index.test.js"],
+          "files": ["index.test.js", "functions.test.js"],
           "rules": {
             "no-undef": "off"
           }

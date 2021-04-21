@@ -14,10 +14,12 @@ const {
   getAllCountriesCallingCode,
   getAllCountriesCapitals,
   getCurrencybyCountryCode,
-  getFilteredObj
+  getFilteredObj,
+  getCountryByCode
 } = require("./functions");
 
 exports.getCountryInfo = (options) => {
+  console.log('fafa')
   const { methodType, attributes } = options;
   if (Array.isArray(methodType)) {
     if (attributes && typeof attributes == "string") {
