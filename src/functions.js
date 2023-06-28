@@ -42,7 +42,7 @@ exports.getCountryTimeZone = (countryName) => {
 exports.getAllCountryStateNames = () => {
   return countryStates.map((country) => {
     return country.states.map((states) => {
-      return country.name - states.name;
+      return country.name + "-" + states.name;
     });
   });
 };
@@ -86,7 +86,11 @@ exports.getFilteredObj = (methodType, filterObj) => {
 };
 
 exports.getCountryByCode = (number) => {
-  let countryCode = String(number)
-  let getCountryCode = countryCode.split('-')[0] 
-  return countryCallingCodes.filter((country) => country.dial_code === getCountryCode)[0] || {}
-}
+  let countryCode = String(number);
+  let getCountryCode = countryCode.split("-")[0];
+  return (
+    countryCallingCodes.filter(
+      (country) => country.dial_code === getCountryCode
+    )[0] || {}
+  );
+};
