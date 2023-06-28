@@ -40,7 +40,7 @@ exports.getCountryTimeZone = (countryName) => {
 };
 
 exports.getAllCountryStateNames = () => {
-  return countryStates.map((country) => {
+  return countryStates.flatMap((country) => {
     return country.states.map((state) => {
       return state + " (" + country.country + ")";
     });
