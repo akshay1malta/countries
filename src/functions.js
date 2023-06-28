@@ -42,7 +42,7 @@ exports.getCountryTimeZone = (countryName) => {
 exports.getAllCountryStateNames = () => {
   return countryStates.map((country) => {
     return country.states.map((states) => {
-      return country.name + "-" + states.name;
+      return concat(states.name, " (", country.name, ")");
     });
   });
 };
